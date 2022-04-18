@@ -1,0 +1,86 @@
+   body {
+       border: solid 50px #1693a5;
+       background-image: linear-gradient(40deg, #616668, #1693a5, #000000);
+       background-attachment: fixed;
+       box-sizing: border-box;
+       margin: 0;
+   }
+   
+   .cabeçalho {
+       display: flex;
+       align-items: center;
+       gap: 50px;
+       padding-top: 2%;
+       padding-left: 5%;
+   }
+   
+   #logotipo1 {
+       border-radius: 50%;
+       transition: all 0.5s;
+       cursor: pointer;
+       -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, 0.782));
+   }
+   
+   #logotipo1:hover {
+       -webkit-transform: scale(1.5);
+       transform: scale(1.3);
+       border: solid rgba(255, 255, 255, 0.571);
+   }
+   
+   #logotipo2 {
+       border: solid #1693a5;
+       cursor: pointer;
+       -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+       /*Sombreamento de imagem*/
+   }
+   
+   #logotipo2:hover {
+       border: 10px solid #1693a5;
+       border-radius: 50%;
+       filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+       -webkit-transform: rotateZ(-360deg) scale(1.2);
+       transform: rotateZ(-360deg) scale(1.2);
+       transition: .5s;
+   }
+   
+   #brea {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-style: normal;
+       font-size: 50px;
+   }
+   
+   #paginaprincipal {
+       border: none;
+       cursor: pointer;
+       font-size: 35px;
+   }
+   
+   #paginaprincipal:hover {
+       transform: scale(1.3);
+       transition: 1s;
+       background-color: aquamarine;
+   }
+   
+   #produtos {
+       border: none;
+       cursor: pointer;
+       font-size: 35px;
+   }
+   
+   #produtos:hover {
+       transform: scale(1.3);
+       transition: 1s;
+       background-color: aquamarine;
+   }
+   
+   #contato {
+       border: none;
+       cursor: pointer;
+       font-size: 35px;
+   }
+   
+   #contato:hover {
+       transform: scale(1.3);
+       transition: 1s;
+       background-color: aquamarine;
+   }
